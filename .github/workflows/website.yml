@@ -1,0 +1,37 @@
+name: Movechess Website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/movechess-website/**"
+      - ".github/**"
+  workflow_dispatch:
+
+env:
+  AWS_REGION: ap-southeast-1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install pnpm dependencies
+        uses: ./.github/actions/install-pnpm-dependencies
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Build Website
+        working-directory: ./packages/movechess-website
+        run: pnpm build:staging
+
+      - name: Push data to S3
+        working-directory: ./packages/movechess-website
+        run: aws s3 sync build/ s3://movechess.com/ --acl public-read

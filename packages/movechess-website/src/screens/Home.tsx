@@ -1,9 +1,9 @@
+import axios from "axios"
 import React from "react"
 import ReCAPTCHA from "react-google-recaptcha"
-import { useForm, SubmitHandler } from "react-hook-form"
-import axios from "axios"
-import { setToast } from "../components/Toast/toastReducer"
+import { SubmitHandler, useForm } from "react-hook-form"
 import { useAppDispatch } from "../app/hooks"
+import { setToast } from "../components/Toast/toastReducer"
 
 type Inputs = {
   email: string
@@ -155,7 +155,37 @@ const Home: React.FC = () => {
           </a> */}
         </div>
       </div>
-      <div className="root-bg"></div>
+      {/* <div className="root-bg"></div> */}
+      <section className="flex flex-col">
+        <div className="flex w-[600px] ml-auto mr-auto">
+          <img
+            className="opacity-30"
+            src="/images/move-chess-knight.png"
+            width={190}
+            height={423}
+            alt=""
+          />
+        </div>
+        <span className="flex justify-center text-5xl mt-[100px]">
+          Get More Updates
+        </span>
+        <span className="flex justify-center mt-3">
+          Submit your email to get more updates from MoveChess.com
+        </span>
+        <div className="flex justify-center mb-6 mt-3">
+          <div className="relative w-3/4">
+            <input
+              className="items-center rounded-full p-4 pl-10 w-full"
+              type="text"
+              placeholder="Your Email..."
+            />
+            <button className=" absolute rounded-full p-3 bg-[#000000] w-[100px] h-[50px] right-0 m-[3px]">
+              I’m In
+            </button>
+          </div>
+        </div>
+        <div className="border-b flex justify-center ml-[82px] mr-[82px]"></div>
+      </section>
     </>
   )
 }

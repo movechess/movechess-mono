@@ -1,14 +1,17 @@
-import React from "react"
-import { HashRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import LandingPage from "../../screens/LandingPage"
 import { LazyHome } from "./elements"
 
 const Router: React.FC = () => {
   return (
-    <HashRouter>
+    // <HashRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LazyHome />} />
+        <Route path="/" element={<LazyHome />} errorElement={<LazyHome />} />
+        <Route path="/landing-page" element={<LandingPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
+    // <HashRouter/>
   )
 }
 

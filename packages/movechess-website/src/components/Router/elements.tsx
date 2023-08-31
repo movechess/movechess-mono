@@ -11,3 +11,6 @@ export const create =
   }
 
 export const LazyHome = create(lazy(() => import("../../screens/Home")))
+export const LandingPage = create(
+  lazy(() => import("../../screens/LandingPage")),
+)

@@ -1,8 +1,9 @@
 import { Provider } from "react-redux"
 import { store } from "../../app/store"
+import Footer from "../Layout/ Footer"
+import Header from "../Layout/Header"
 import Router from "../Router/Router"
 import Toast from "../Toast/Toast"
-import Header from "../Layout/Header";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Toast />
       <Router />
+      <Footer />
     </Provider>
   )
 }

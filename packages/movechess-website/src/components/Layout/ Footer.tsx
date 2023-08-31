@@ -1,27 +1,25 @@
 const Footer: React.FC = () => {
   return (
-    <footer className="mt-5 pl-5 pb-[82px] md:pl-[82px]">
+    <footer className="mt-5">
       <div>
         <img
-          src={"images/move-chess-logo.png"}
-          width={105}
-          height={74}
+          className="w-[65px] sm:w-[105px] sm:h-[74px]"
+          src={"/images/move-chess-logo.png"}
           alt="abc"
         />
       </div>
-      <div className="mt-6">
+      <div className="mt-6 text-[12px] sm:text-[17px]">
         <p className="break-words">
-          MoveChess, the inaugural chess platform on the blockchain ecosystem.{" "}
+          MoveChess, the inaugural chess platform on the blockchain ecosystem.
         </p>
         <p className="break-words mt-2">
           An arena for users to indulge in intellectual gaming entertainment.
         </p>
       </div>
-      <div className="mt-[70px]">
+      <div className=" mt-[25px] sm:mt-[70px]">
         <img
+          className="w-[200px] sm:w-[340px] sm:h-[35px]"
           src={"/images/social-icon.png"}
-          width={340}
-          height={35}
           alt="icon"
         />
       </div>

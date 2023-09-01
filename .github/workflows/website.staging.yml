@@ -1,8 +1,8 @@
-name: Movechess Website
+name: Staging of Movechess Website
 
 on:
   push:
-    branches: [releases/*]
+    branches: [main]
     paths:
       - "packages/movechess-website/**"
       - ".github/**"
@@ -34,4 +34,4 @@ jobs:
 
       - name: Push data to S3
         working-directory: ./packages/movechess-website
-        run: aws s3 sync build/ s3://movechess.com/ --acl public-read
+        run: aws s3 sync build/ s3://staging-0a8c.movechess.com/ --acl public-read

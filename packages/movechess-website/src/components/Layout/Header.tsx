@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import MobileHeader from "./Mobile-Header"
+import MobileHeader from "./MobileHeader"
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true)
@@ -32,7 +32,7 @@ export default function Header() {
               alt="Hey Logo"
             />
           </div>
-          <div className="hidden md:flex w:5/12 lg:w-7/12 flex justify-between px-9">
+          <div className="md:flex w:5/12 lg:w-7/12 flex justify-between px-9">
             <ul className="flex w-full text-[16px] lg:text-[20px] font-bold">
               <li className="flex-grow flex-shrink-0 p-4">
                 <button>Home</button>

@@ -1,13 +1,13 @@
 import Footer from "../components/Layout/Footer"
 import Header from "../components/Layout/Header"
-import FirstSection from "./First-Section";
+import FirstSection from "./First-Section"
 
 const LandingPage: React.FC = () => {
   return (
     <>
+      <Header />
       <div className="bg-[#1d1d20] text-white flex justify-center ">
         <div className="p-[15px] pt-[0px] sm:p-[82px] sm:pt-[0px] max-w-[1536px] w-[1536px] min-w-[400px]">
-          <Header />
           <section className="border-b flex flex-col ">
             <FirstSection />
             {/* Code Here */}

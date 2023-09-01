@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import MobileHeader from "./MobileHeader";
+import MobileHeader from "./MobileHeader"
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true)
@@ -17,38 +17,38 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed max-w-[1536px] flex justify-center z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
+      className={`fixed max-w-[1536px] w-[1536px] flex justify-center z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
         !top ? "bg-[#0c0f14] backdrop-blur-sm shadow-lg" : ""
       }`}
     >
-      <div className="mx-auto px-5 md:px-9">
-        <div className="flex items-center justify-between h-32 md:h-32 ">
+      <div className="mx-auto px-5 md:px-9 w-full">
+        <div className="flex items-center h-32 md:h-32 ">
           {/* Site branding */}
           <div className="shrink-0 mr-4 lg:ml-14">
             <img
-                className="w-[65px] sm:w-[105px] sm:h-[74px]"
-                src={"/images/move-chess-logo.png"}
-                alt="logo"
+              className="w-[65px] sm:w-[105px] sm:h-[74px]"
+              src={"/images/move-chess-logo.png"}
+              alt="logo"
             />
           </div>
-          <div className="hidden md:flex w:5/12 lg:w-7/12 flex justify-between lg:px-9">
+          <div className="hidden md:flex w:5/12 lg:w-6/12 flex justify-between lg:px-9">
             <ul className="flex w-full text-[16px] lg:text-[20px] font-bold">
-              <li className="flex-grow flex-shrink-0 p-4">
+              <li className="flex-grow  text-start flex-shrink-0 p-4">
                 <button>Home</button>
               </li>
-              <li className="flex-grow flex-shrink-0 p-4">
+              <li className="flex-grow text-start flex-shrink-0 p-4">
                 <button>Team</button>
               </li>
-              <li className="flex-grow flex-shrink-0 p-4">
+              <li className="flex-grow text-start flex-shrink-0 p-4">
                 <button>ChessPapers</button>
               </li>
-              <li className="flex-grow flex-shrink-0 p-4">
+              <li className="flex-grow text-start flex-shrink-0 p-4">
                 <button>Activities</button>
               </li>
             </ul>
           </div>
 
-          <nav className="hidden md:flex">
+          <nav className="hidden md:flex ml-10">
             <ul className="flex grow justify-end flex-wrap items-center space-x-4 text-[12px] lg:text-[16px]">
               <li>
                 <button className="text-black font-bold w-32 lg:w-52 bg-white border-2 border-black shadow-2xl py-2 rounded-lg ring-2 ring-gray-200 ring-opacity-10">

@@ -6,7 +6,7 @@ export default function FirstSection() {
             <div className="bg-[url('/images/background-chess-board.png')] w-full h-full bg-cover bg-center bg-no-repeat mb-8"
             >
                 <div className="px-9 flex flex-col md:flex-row h-full">
-                    <div className="w-full px-9 pt-[45%] sm:pt-[40%] md:pt-[35%] lg:pt-[30%]">
+                    <div className="w-full px-9 pt-[45%] sm:pt-[40%] md:pt-[35%] lg:pt-[25%]">
                         <p className="mt-3 text-4xl md:text-5xl lg:text-6xl font-bold">
                             MoveChess,
                         </p>

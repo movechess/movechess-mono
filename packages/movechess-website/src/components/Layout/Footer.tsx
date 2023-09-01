@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <footer className="mt-5">
+    <footer className="mt-5 px-9 sm:px-[82px]">
       <div>
         <img
           className="w-[65px] sm:w-[105px] sm:h-[74px]"
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
       </div>
       <div className=" mt-[25px] sm:mt-[70px]">
         <img
-          className="w-[200px] sm:w-[340px] sm:h-[35px]"
+          className="w-16 sm:w-20 md:w-24 lg:w-28"
           src={"/images/social-icon.png"}
           alt="icon"
         />

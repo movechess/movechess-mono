@@ -34,7 +34,7 @@ export default function MobileHeader() {
   })
 
   return (
-    <div className="flex md:hidden">
+    <div className="flex ml-auto xl:hidden">
       {/* Hamburger button */}
       <button
         ref={trigger}
@@ -45,13 +45,13 @@ export default function MobileHeader() {
       >
         <span className="sr-only">Menu</span>
         <svg
-          className="w-6 h-6 fill-current text-white-900"
+          className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 fill-current text-white-900"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect y="4" width="24" height="2" />
-          <rect y="11" width="24" height="2" />
-          <rect y="18" width="24" height="2" />
+          <rect y="4" width="36" height="2" />
+          <rect y="11" width="36" height="2" />
+          <rect y="18" width="36" height="2" />
         </svg>
       </button>
 
@@ -61,7 +61,7 @@ export default function MobileHeader() {
           show={mobileNavOpen}
           as="nav"
           id="mobile-nav"
-          className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-[#0c0f14]"
+          className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-[#131315]"
           enter="transition ease-out duration-200 transform"
           enterFrom="opacity-0 -translate-y-2"
           enterTo="opacity-100 translate-y-0"
@@ -71,52 +71,35 @@ export default function MobileHeader() {
         >
           <ul className="px-5 py-2">
             <li className="flex justify-center">
-              <div className="text-[30px] lg:text-[48px] underline uppercase text-center pt-[32px] lg:pt-[103px]">
-                Home
-              </div>
-              <div className="text-[26px] lg:text-[40px] text-center text-[#EEC5CF]">
-                {/* The innovation of social networking platform on Web3 */}
+              <div className="text-xl lg:text-3xl text-center">
+                <p>Home</p>
               </div>
             </li>
             <li className="flex justify-center">
-              <div className="text-[30px] lg:text-[48px] underline uppercase text-center pt-[32px] lg:pt-[103px]">
-                Team
-              </div>
-              <div className="text-[26px] lg:text-[40px] text-center text-[#EEC5CF]">
-                {/* The innovation of social networking platform on Web3 */}
+              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16">
+                <p>Team</p>
               </div>
             </li>
             <li className="flex justify-center">
-              <div className="text-[30px] lg:text-[48px] underline uppercase text-center pt-[32px] lg:pt-[103px]">
-                ChessPapers
-              </div>
-              <div className="text-[26px] lg:text-[40px] text-center text-[#EEC5CF]">
-                {/* The innovation of social networking platform on Web3 */}
+              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16">
+                <p>ChessPapers</p>
               </div>
             </li>
             <li className="flex justify-center">
-              <div className="text-[30px] lg:text-[48px] underline uppercase text-center pt-[32px] lg:pt-[103px]">
-                Activities
-              </div>
-              <div className="text-[26px] lg:text-[40px] text-center text-[#EEC5CF]">
-                {/* The innovation of social networking platform on Web3 */}
+              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16">
+                <p>Activities</p>
               </div>
             </li>
             <li className="flex justify-center">
-              <div className="text-[30px] lg:text-[48px] underline uppercase text-center pt-[32px] lg:pt-[103px]">
-                SIGN UP
-              </div>
-              <div className="text-[26px] lg:text-[40px] text-center text-[#EEC5CF]">
-                {/* The innovation of social networking platform on Web3 */}
+              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16">
+                <p>Sign Up</p>
               </div>
             </li>
             <li className="flex justify-center">
-              <div className="text-[30px] lg:text-[48px] underline uppercase text-center pt-[32px] lg:pt-[103px]">
-                CONNECT WALLET
+              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16">
+                <p>Connect Wallet</p>
               </div>
-              <div className="text-[26px] lg:text-[40px] text-center text-[#EEC5CF]">
-                {/* The innovation of social networking platform on Web3 */}
-              </div>
+
             </li>
           </ul>
         </Transition>

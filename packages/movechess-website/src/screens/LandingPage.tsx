@@ -6,12 +6,12 @@ const LandingPage: React.FC = () => {
   return (
     <>
       <Header />
-      <div className="bg-[#1d1d20] text-white flex justify-center ">
-        <div className="p-[15px] pt-[0px] sm:p-[82px] sm:pt-[0px] max-w-[1536px] w-[1536px] min-w-[400px]">
+      <div className="bg-[#131315] text-white flex justify-center ">
+        <div className="pb-[15px] pt-[0px] sm:pb-[82px] sm:pt-[0px] max-w-[1536px] w-[1536px] min-w-[400px]">
           <section className="border-b flex flex-col ">
             <FirstSection />
             {/* Code Here */}
-            <div className="flex sm:flex-row w-full h-[500px] items-end sm:items-center relative ">
+            <div className="flex px-9 sm:px-[82px] sm:flex-row w-full h-[500px] items-end sm:items-center relative ">
               <div className="w-[50%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[56%]  ">
                 <p className=" text-1xl sm:text-4xl z-10 break-words">
                   Chess Unleashed: Your Way, Your Moves
@@ -39,7 +39,7 @@ const LandingPage: React.FC = () => {
                 alt=""
               />
             </div>
-            <div className="relative">
+            <div className="relative px-9 sm:px-[82px]">
               <span className="relative text-1xl sm:text-4xl z-10 flex justify-center text-center">
                 Get More Updates
               </span>
@@ -50,10 +50,10 @@ const LandingPage: React.FC = () => {
               />
             </div>
 
-            <span className="flex justify-center w-full text-center mt-3 text-[13px] sm:text-[17px]">
+            <span className="flex px-9 sm:px-[82px] justify-center w-full text-center mt-3 text-[13px] sm:text-[17px]">
               Submit your email to get more updates from MoveChess.com
             </span>
-            <div className="flex justify-center mb-6 mt-3">
+            <div className="flex px-9 sm:px-[82px] justify-center mb-6 mt-3">
               <div className="relative sm:w-3/4 w-full text-[12px] sm:text-[17px]">
                 <input
                   className="items-center rounded-full p-2 sm:p-4 pl-10 w-full "

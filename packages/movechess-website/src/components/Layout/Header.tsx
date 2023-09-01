@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import MobileHeader from "./Mobile-Header"
+import MobileHeader from "./MobileHeader";
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true)
@@ -17,19 +17,18 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
+      className={`fixed max-w-[1536px] flex justify-center z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
         !top ? "bg-[#0c0f14] backdrop-blur-sm shadow-lg" : ""
       }`}
     >
       <div className="mx-auto px-5 md:px-9">
-        <div className="flex items-center justify-between h-32 md:h-32">
+        <div className="flex items-center justify-between h-32 md:h-32 ">
           {/* Site branding */}
           <div className="shrink-0 mr-4 lg:ml-14">
             <img
-              src="/images/move-chess-logo.png"
-              width={105}
-              height={74}
-              alt="Hey Logo"
+                className="w-[65px] sm:w-[105px] sm:h-[74px]"
+                src={"/images/move-chess-logo.png"}
+                alt="logo"
             />
           </div>
           <div className="hidden md:flex w:5/12 lg:w-7/12 flex justify-between lg:px-9">

@@ -21,11 +21,11 @@ export default function FirstSection() {
                                 <p className="text-center text-xl md:text-2xl lg:text-3xl py-3">Subscribe your address to receive a free-mint MoveChess NFT</p>
                                 <div className="sm:flex text-center mt-3 mb-5 items-center">
                                     <input
-                                        className="items-center text-xl md:text-2xl lg:text-3xl rounded-full p-4 pl-10 w-full"
+                                        className="items-center text-sm md:text-2xl lg:text-3xl rounded-full p-4 pl-10 w-full"
                                         type="text"
                                         placeholder="Enter your Sui address"
                                     />
-                                    <button className="text-l text-xl md:text-xl lg:text-2xl font-w sm:absolute rounded-full p-1 sm:p-3 w-full sm:w-[150px] h-[50px] m-[4px] sm:m-[3px] mt-3 sm:mt-0 bg-black sm:bg-[#232020] right-0 border-white shadow-2xl py-2 ring-2 ring-gray-200 ring-opacity-60">
+                                    <button className="text-l text-lg md:text-xl lg:text-2xl font-w sm:absolute rounded-full p-1 sm:p-3 w-full sm:w-[150px] h-[50px] m-[4px] sm:m-[3px] mt-3 sm:mt-0 bg-black sm:bg-[#232020] right-0 border-white shadow-2xl py-2 ring-2 ring-gray-200 ring-opacity-60">
                                         <p className="opacity-60 font-bold">Submit</p>
                                     </button>
                                 </div>

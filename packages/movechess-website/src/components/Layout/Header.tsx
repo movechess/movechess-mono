@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full max-w-[1536px] w-[1536px] flex justify-center z-30 xl:bg-opacity-90 transition duration-300 ease-in-out bg-[#131315] xl:bg-transparent${
+      className={`fixed w-full max-w-[1536px] w-[1536px] flex justify-center m-auto right-0 left-0 z-30 xl:bg-opacity-90 transition duration-300 ease-in-out bg-[#131315] xl:bg-transparent${
         !top ? "xl:bg-[#131315] backdrop-blur-sm shadow-lg" : ""
       }`}
     >

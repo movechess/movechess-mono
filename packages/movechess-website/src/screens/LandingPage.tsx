@@ -11,12 +11,22 @@ const LandingPage: React.FC = () => {
           <section className="border-b flex flex-col ">
             <FirstSection />
             {/* Code Here */}
-            <div className="flex px-9 sm:px-[82px] sm:flex-row w-full h-[500px] items-end sm:items-center relative ">
-              <div className="w-[50%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[56%]  ">
-                <p className=" text-1xl sm:text-4xl z-10 break-words">
+            <div className="lg:flex px-9 sm:px-[82px] sm:flex-row w-full h-[500px] items-end sm:items-center relative mt-[30%]">
+              <img
+                  className="absolute w-48 sm:w-auto z-2 opacity-50 mt-[-35%] ml-[-5%]"
+                  src="/images/move-chess-rook2.png"
+                  alt=""
+              />
+              <img
+                  className="absolute z-2 opacity-30 ml-[30%]"
+                  src="/images/move-chess-rook-dark-wood.png"
+                  alt=""
+              />
+              <div className="w-[100%] relative z-10 ml-9 pr-5">
+                <p className="text-3xl lg:text-4xl font-bold z-10 break-words">
                   Chess Unleashed: Your Way, Your Moves
                 </p>
-                <p className="xl:w-4/5 lg:w-4/5 text-[13px] sm:text-[17px] mt-1 z-10">
+                <p className="xl:w-4/5 lg:w-4/5 text-xl lg:text-2xl mt-1 z-10">
                   Customize your chess experience with unique sets and
                   challenges. Dive into endless strategic possibilities where
                   each move defines your style. Play it your way.
@@ -25,26 +35,31 @@ const LandingPage: React.FC = () => {
               <div className="w-[50%] sm:w-[50%] md:w-[50%] lg:w-[55%] xl:w-[44%]">
                 {/* <div className="w-full"></div> */}
                 <img
-                  className="absolute min-w-[30%] w-[275px] sm:w-[350px] md:w-[450px] lg:w-[650px] xl:w-[680px] h-[250px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:h-[600px] z-0 right-0 top-[280px] sm:top-[30px] md:top-[20px] lg:md:top-[-30px] "
+                    className="hidden lg:block absolute z-2 min-w-[30%] lg:w-7/12 w-9/12 xl:w-9/12 h-auto z-0 right-0 lg:mt-[-50%] xl:mt-[-60%] opacity-50"
+                    src="/images/move-chess-rook.png"
+                    alt=""
+                />
+                <img
+                  className="absolute min-w-[30%] w-9/12 lg:w-6/12 xl:w-7/12 h-auto z-0 right-0 sm:top-36 lg:md:top-[-30px] "
                   src="/images/move-chess-tb.png"
                   alt=""
                 />
               </div>
             </div>
 
-            <div className="w-full flex justify-center mb-[30px] sm:mb-[90px]">
+            <div className="w-full flex justify-center mb-[30px] xl:my-28">
               <img
-                className="opacity-30 w-[110px]  sm:w-[225px] h-[150px] sm:h-[275px] ml-[-200px] sm:ml-[-500px]"
+                className="opacity-30 w-48 sm:w-auto xl:w-96 ml-[-45%] mt-[-80%] sm:mt-[-25%] mt-[-10%] z-[-1]"
                 src="/images/move-chess-knight.png"
                 alt=""
               />
             </div>
             <div className="relative px-9 sm:px-[82px]">
-              <span className="relative text-1xl sm:text-4xl z-10 flex justify-center text-center">
+              <span className="relative font-bold text-1xl sm:text-4xl z-10 flex justify-center text-center">
                 Get More Updates
               </span>
               <img
-                className="absolute bottom-[-20px] sm:bottom-[-35px] opacity-30  left-1/2 z-0 w-[100px] sm:w-[200px] h-[160px] sm:h-[275px]"
+                className="absolute w-48 sm:w-auto bottom-[-20px] sm:bottom-[-70px] opacity-30 left-1/2 z-[-1]"
                 src="/images/pawn.png"
                 alt="pawn"
               />

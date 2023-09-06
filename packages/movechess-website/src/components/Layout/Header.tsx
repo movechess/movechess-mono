@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import MobileHeader from "./MobileHeader"
+import {ConnectButton} from "@mysten/wallet-kit";
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true)
@@ -51,14 +52,12 @@ export default function Header() {
           <nav className="hidden xl:flex ml-12">
             <ul className="flex w-full justify-end flex items-center space-x-4 text-s lg:text-sm">
               <li>
-                <button className="text-black font-bold w-32 lg:w-40 bg-white border-2 border-black shadow-2xl py-2 rounded-lg ring-2 ring-gray-200 ring-opacity-10">
+                <button className="text-black font-bold w-32 lg:w-40 bg-white hover:bg-[#c3c5c8] border-2 border-black shadow-2xl py-2 rounded-lg ring-2 ring-gray-200 ring-opacity-10">
                   SIGN UP
                 </button>
               </li>
-              <li>
-                <button className="font-bold bg-black w-32 lg:w-40 border-2 border-white shadow-2xl py-2 rounded-lg ring-2 ring-gray-200 ring-opacity-10">
-                  CONNECT WALLET
-                </button>
+              <li className="btn-connect-wallet">
+                <ConnectButton connectText="CONNECT WALLET" />
               </li>
             </ul>
           </nav>

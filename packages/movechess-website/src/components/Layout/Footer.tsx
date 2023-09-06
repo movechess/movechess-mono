@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           alt="abc"
         />
       </div>
-      <div className="mt-6 text-[12px] sm:text-[17px]">
+      <div className="mt-6 text-sm sm:text-lg">
         <p className="break-words">
           MoveChess, the inaugural chess platform on the blockchain ecosystem.
         </p>
@@ -16,10 +16,25 @@ const Footer: React.FC = () => {
           An arena for users to indulge in intellectual gaming entertainment.
         </p>
       </div>
-      <div className=" mt-[25px] sm:mt-[70px]">
+      <div className="flex mt-[25px] sm:mt-[70px]">
         <img
-          className="w-16 sm:w-20 md:w-24 lg:w-28"
-          src={"/images/social-icon.png"}
+          className="max-h-[50px] h-6 md:h-8 w-auto"
+          src={"/images/discord-logo.png"}
+          alt="icon"
+        />
+        <img
+          className="max-h-[50px] h-6 md:h-8 w-auto ml-10"
+          src={"/images/twitter-logo.png"}
+          alt="icon"
+        />
+        <img
+          className="max-h-[50px] h-6 md:h-8 w-auto ml-10"
+          src={"/images/instagram-logo.png"}
+          alt="icon"
+        />
+        <img
+          className="max-h-[50px] h-6 md:h-8 w-auto ml-10"
+          src={"/images/youtube-logo.png"}
           alt="icon"
         />
       </div>

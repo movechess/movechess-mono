@@ -65,7 +65,7 @@ const LandingPage: React.FC = () => {
               />
             </div>
 
-            <span className="flex px-9 sm:px-[82px] justify-center w-full text-center mt-3 text-[13px] sm:text-[17px]">
+            <span className="flex px-9 sm:px-[82px] justify-center w-full text-center mt-3 text-sm sm:text-lg">
               Submit your email to get more updates from MoveChess.com
             </span>
             <div className="flex px-9 sm:px-[82px] justify-center mb-6 mt-3">
@@ -75,7 +75,7 @@ const LandingPage: React.FC = () => {
                   type="text"
                   placeholder="Your Email..."
                 />
-                <button className=" absolute rounded-full  p-1 sm:p-3 w-[50px] sm:w-[100px] h-[25px] sm:h-[50px]  m-[4px] sm:m-[3px] bg-[#000000] right-0">
+                <button className=" absolute rounded-full p-1 sm:p-3 w-[50px] sm:w-[100px] h-[25px] sm:h-[50px] m-[4px] sm:m-[3px] bg-[#232020] hover:bg-black right-0">
                   I'm In
                 </button>
               </div>

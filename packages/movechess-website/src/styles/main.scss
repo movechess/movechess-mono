@@ -91,6 +91,40 @@ body {
   }
 }
 
+.btn-connect-wallet {
+  .c-bJDFsw-bnNzXe-color-primary {
+    border: 2px solid;
+    font-family: 'Montserrat', sans-serif;
+    @apply font-bold bg-black w-32 lg:w-40 border-2 border-white shadow-2xl py-2 px-0 rounded-lg ring-2 ring-gray-200 ring-opacity-10;
+  }
+  .c-bJDFsw-bnNzXe-color-primary:hover {
+    @apply bg-[#232020];
+  }
+  .c-bJDFsw-fUIBgX-color-connected {
+    color: white;
+    border: 2px solid;
+    @apply flex justify-center font-bold bg-black w-32 lg:w-40 border-2 border-white shadow-2xl py-2 px-0 rounded-lg ring-2 ring-gray-200 ring-opacity-10;
+  }
+  .c-cMxIhQ {
+    overflow: hidden !important;
+  }
+}
+
+.btn-connect-wallet-mobile {
+  .c-bJDFsw-bnNzXe-color-primary {
+    padding: 0 !important;
+    font-family: 'Montserrat', sans-serif;
+    @apply bg-[#131315] font-normal text-xl lg:text-3xl text-center shadow-none px-0 py-0;
+  }
+  .c-bJDFsw-bnNzXe-color-primary:hover {
+    @apply bg-[#131315];
+  }
+  .c-bJDFsw-fUIBgX-color-connected {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    @apply bg-[#131315] font-normal text-xl lg:text-3xl text-center shadow-none px-0 py-0;
+  }
+}
 .font-title {
   font-family: 'Merienda', cursive;
 }

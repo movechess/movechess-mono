@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react"
 import { Transition } from "@headlessui/react"
+import {ConnectButton} from "@mysten/wallet-kit";
 
 export default function MobileHeader() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
@@ -96,8 +97,8 @@ export default function MobileHeader() {
               </div>
             </li>
             <li className="flex justify-center">
-              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16">
-                <p>Connect Wallet</p>
+              <div className="text-xl lg:text-3xl text-center pt-9 sm:pt-16 btn-connect-wallet-mobile">
+                <ConnectButton connectText="Connect Wallet" />
               </div>
 
             </li>

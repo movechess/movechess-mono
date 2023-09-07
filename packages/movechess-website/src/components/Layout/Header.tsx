@@ -35,16 +35,16 @@ export default function Header() {
           <div className="hidden xl:flex w:5/12 lg:w-9/12 flex justify-between lg:px-9">
             <ul className="flex w-full text-base md:text-lg lg:text-xl font-bold">
               <li className="flex-grow mr-4 text-start flex-shrink-0 p-4">
-                <button>Home</button>
+                <button className="hover:scale-110">Home</button>
               </li>
               <li className="flex-grow mr-4 text-start flex-shrink-0 p-4">
-                <button>Team</button>
+                <button className="hover:scale-110">Team</button>
               </li>
               <li className="flex-grow mr-4 text-start flex-shrink-0 p-4">
-                <button>ChessPapers</button>
+                <button className="hover:scale-110">ChessPapers</button>
               </li>
               <li className="flex-grow mr-4 text-start flex-shrink-0 p-4">
-                <button>Activities</button>
+                <button className="hover:scale-110">Activities</button>
               </li>
             </ul>
           </div>
@@ -52,7 +52,7 @@ export default function Header() {
           <nav className="hidden xl:flex ml-12">
             <ul className="flex w-full justify-end flex items-center space-x-4 text-s lg:text-sm">
               <li>
-                <button className="text-black font-bold w-32 lg:w-40 bg-white hover:bg-[#c3c5c8] border-2 border-black shadow-2xl py-2 rounded-lg ring-2 ring-gray-200 ring-opacity-10">
+                <button className="text-black font-bold w-32 lg:w-40 bg-white hover:scale-110 hover:shadow-[2px_2px_15px_white] border-2 border-black shadow-2xl py-2 rounded-lg ring-2 ring-gray-200 ring-opacity-10">
                   SIGN UP
                 </button>
               </li>

@@ -71,7 +71,7 @@ const LandingPage: React.FC = () => {
             <div className="flex px-9 sm:px-[82px] justify-center mb-6 mt-3">
               <div className="relative sm:w-3/4 w-full text-[12px] sm:text-[17px]">
                 <input
-                  className="items-center rounded-full p-2 sm:p-4 pl-10 w-full "
+                  className="items-center rounded-full p-2 sm:p-4 pl-10 w-full text-black"
                   type="text"
                   placeholder="Your Email..."
                 />

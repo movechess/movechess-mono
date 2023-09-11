@@ -26,7 +26,7 @@ export default function FirstSection() {
                                 <p className="text-center text-sm md:text-lg lg:text-xl py-3">Subscribe your address to receive a free-mint MoveChess NFT</p>
                                 <div className="relative w-full text-[10px] sm:text-[17px]">
                                     <input
-                                        className="items-center rounded-full p-2 sm:p-4 sm:pl-10 w-full "
+                                        className="items-center rounded-full p-2 sm:p-4 sm:pl-10 w-full text-black"
                                         type="text"
                                         placeholder="Enter your Sui address"
                                     />

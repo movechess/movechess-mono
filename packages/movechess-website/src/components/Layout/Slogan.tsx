@@ -1,8 +1,8 @@
 const Slogan: React.FC = () => {
   return (
     <>
-      <div className="fixed md:w-1/2 h-full max-w-[768px]">
-        <div className="px-16 md:pt-16 lg:pt-32 w-full h-full ml-5">
+      <div className="lg:fixed w-full lg:w-1/2 h-full max-w-[1536px] lg:max-w-[768px] lg:ml-12 xl:ml-28">
+        <div className="px-16 pt-12 lg:pt-32 w-full h-full">
           <div className="shrink-0">
             <img className="w-20" src={"/images/Logo.svg"} alt="logo" />
           </div>

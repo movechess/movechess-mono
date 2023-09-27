@@ -13,3 +13,7 @@ export const create =
 export const LandingPage = create(
   lazy(() => import("../../screens/LandingPage")),
 )
+
+export const LandingPageV2 = create(
+  lazy(() => import("../../screens/LandingPageV2")),
+)

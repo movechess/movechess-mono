@@ -2,13 +2,9 @@ const Slogan: React.FC = () => {
   return (
     <>
       <div className="fixed md:w-1/2 h-full max-w-[768px]">
-        <div className="px-16 md:pt-16 lg:pt-32 w-full h-full">
+        <div className="px-16 md:pt-16 lg:pt-32 w-full h-full ml-5">
           <div className="shrink-0">
-            <img
-              className="w-20"
-              src={"/images/move-chess-logo.png"}
-              alt="logo"
-            />
+            <img className="w-20" src={"/images/Logo.svg"} alt="logo" />
           </div>
           <div className="md:text-4xl lg:text-6xl font-bold mt-32">
             <p className="mb-5">MoveChess, </p>
@@ -35,7 +31,7 @@ const Slogan: React.FC = () => {
             <button className="flex items-center space-x-2 bg-[#B3FF77] hover:bg-[#83ca4c] text-black px-5 py-3 rounded-full">
               <img
                 className="h-6 md:h-6 w-auto"
-                src={"/images/discord-logo.png"}
+                src={"/images/discord-logo-black.png"}
                 alt="icon"
               />
               <span className="font-bold text-lg">JOIN OUR DISCORD</span>

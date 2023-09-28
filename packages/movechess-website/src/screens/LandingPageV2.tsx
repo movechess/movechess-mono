@@ -32,7 +32,7 @@ const LandingPageV2: React.FC = () => {
           <div className="flex">
             <div className="fixed inset-0 flex flex-wrap items-center pointer-events-none overflow-hidden h-screen">
               {[...Array(numDivs).keys()].map((index) => (
-                <div key={index} ref={divLoop} className="flex-nowrap text-2xl">
+                <div key={index} ref={divLoop} className="flex-nowrap text-3xl">
                   <div className="flex opacity-30 overflow-hidden">
                     <BackgroundTextLoop></BackgroundTextLoop>
                   </div>

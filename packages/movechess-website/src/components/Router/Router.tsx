@@ -5,8 +5,8 @@ const Router: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/landing" element={<LandingPageV2 />} />
+        <Route path="/" element={<LandingPageV2 />} />
+        <Route path="/landing" element={<LandingPage />} />
       </Routes>
     </BrowserRouter>
   )

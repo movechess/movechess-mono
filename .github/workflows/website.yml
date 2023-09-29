@@ -2,7 +2,7 @@ name: Movechess Website
 
 on:
   push:
-    branches: [releases/*]
+    branches: [releases/**]
     paths:
       - "packages/movechess-website/**"
       - ".github/**"

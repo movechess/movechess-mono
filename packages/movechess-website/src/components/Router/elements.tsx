@@ -10,10 +10,4 @@ export const create =
     return <Suspense fallback={<div></div>}>{<Inner />}</Suspense>
   }
 
-export const LandingPage = create(
-  lazy(() => import("../../screens/LandingPage")),
-)
-
-export const LandingPageV2 = create(
-  lazy(() => import("../../screens/LandingPageV2")),
-)
+export const Home = create(lazy(() => import("../../screens/Home")))

@@ -1,8 +1,8 @@
 # Movechess mono repository
 
-## Hướng dẫn sử dụng
+## How to install
 
-Cài đặt `pnpm` ở máy: https://pnpm.io/installation
+Install `pnpm` in your device: https://pnpm.io/installation
 
 ## Install dependencies
 
@@ -12,6 +12,6 @@ pnpm install
 
 ## Packages
 
-`cd` vô từng package để chạy scripts, hoặc sử dụng `pnpm -F <script>`
+`cd` Access each packages to run the scripts or, using  `pnpm -F <script>`
 
-Ví dụ, `pnpm -F movechess-website dev`
+For example: `pnpm -F movechess-website dev`

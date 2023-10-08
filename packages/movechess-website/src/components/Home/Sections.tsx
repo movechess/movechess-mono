@@ -2,7 +2,7 @@ import React, { PropsWithChildren } from "react"
 import gsap from "gsap"
 import { Observer } from "gsap/Observer"
 import { useEffectOnce } from "usehooks-ts"
-import { DiscordAlt } from "@styled-icons/boxicons-logos"
+import { DiscordAlt, Twitter } from "@styled-icons/boxicons-logos"
 gsap.registerPlugin(Observer)
 
 let current = 0
@@ -193,23 +193,29 @@ export const RawSections = () => {
           />
 
           <div className="text-center">
-            <h1 className="text-[22px] md:text-[32px] font-bold">
-              Join our Discord
-            </h1>
+            <h1 className="text-[22px] md:text-[32px] font-bold">Community</h1>
             <p className="text-[23px] opacity-60 text-center leading-[30.36px] text-[400] mt-[4px]">
               Where Chess Enthusiasts Connect
             </p>
           </div>
 
-          <a
-            className="text-center bg-[#B3FF77] px-[24px] py-[18px] rounded-[62px] text-black uppercase text-[18px] font-[700] tracking-widest flex items-center justify-between max-w-[282px] mx-auto gap-[10px]"
-            href="https://discord.com/invite/movechess"
-            target="_blank"
-          >
-            <DiscordAlt size={26.4} />
-            Join our discord
-          </a>
-          <div className="text-center">Coming Soon!</div>
+          <div className="flex gap-4">
+            <a
+              className="text-center bg-[#B3FF77] px-[24px] py-[18px] rounded-[62px] text-black uppercase text-[18px] font-[700] tracking-widest flex items-center justify-between mx-auto gap-[10px]"
+              href="https://discord.com/invite/movechess"
+              target="_blank"
+            >
+              <DiscordAlt size={26.4} />
+              Discord
+            </a>
+            <a
+              className="bg-[#B3FF77] px-[24px] py-[18px] rounded-[62px] text-black uppercase text-[18px] font-[700] tracking-widest flex items-center justify-between gap-[10px]"
+              href="https://twitter.com/MoveChessLabs"
+              target="_blank"
+            >
+              <Twitter size={26.4} /> Twitter
+            </a>
+          </div>
         </div>
       </Section>
     </>

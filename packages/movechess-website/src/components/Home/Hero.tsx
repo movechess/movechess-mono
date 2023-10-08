@@ -1,5 +1,5 @@
 import React from "react"
-import { DiscordAlt } from "@styled-icons/boxicons-logos"
+import { DiscordAlt, Twitter } from "@styled-icons/boxicons-logos"
 
 const Hero: React.FC = () => {
   return (
@@ -23,13 +23,20 @@ const Hero: React.FC = () => {
           Unleash your strategy, perfect your <br />
           play, and rise to chess mastery
         </div>
-        <div>
+        <div className="flex gap-4">
           <a
-            className="bg-[#B3FF77] px-[24px] py-[18px] rounded-[62px] text-black uppercase text-[18px] font-[700] tracking-widest flex items-center justify-between gap-[10px] max-w-[282px]"
+            className="bg-[#B3FF77] px-[24px] py-[18px] rounded-[62px] text-black uppercase text-[18px] font-[700] tracking-widest inline-flex items-center justify-between gap-[10px]"
             href="https://discord.com/invite/movechess"
             target="_blank"
           >
-            <DiscordAlt size={26.4} /> Join our discord
+            <DiscordAlt size={26.4} /> Discord
+          </a>
+          <a
+            className="bg-[#B3FF77] px-[24px] py-[18px] rounded-[62px] text-black uppercase text-[18px] font-[700] tracking-widest inline-flex items-center justify-between gap-[10px]"
+            href="https://twitter.com/MoveChessLabs"
+            target="_blank"
+          >
+            <Twitter size={26.4} /> Twitter
           </a>
         </div>
       </div>

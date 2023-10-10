@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "packages/movechess-website/**"
+      - "packages/website/**"
       - ".github/**"
   workflow_dispatch:
 
@@ -29,9 +29,9 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Build Website
-        working-directory: ./packages/movechess-website
+        working-directory: ./packages/website
         run: pnpm build:staging
 
       - name: Push data to S3
-        working-directory: ./packages/movechess-website
+        working-directory: ./packages/website
         run: aws s3 sync build/ s3://staging-0a8c.movechess.com/ --acl public-read

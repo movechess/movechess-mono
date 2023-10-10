@@ -14,4 +14,4 @@ pnpm install
 
 `cd` Access each packages to run the scripts or, using  `pnpm -F <script>`
 
-For example: `pnpm -F movechess-website dev`
+For example: `pnpm -F website dev`

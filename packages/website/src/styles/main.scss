@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "AmstelvarAlpha";
+  src: url("/fonts/AmstelvarAlpha-Variations.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: linear-gradient(217deg, rgb(47, 56, 70), rgba(11, 27, 47, 0.13) 70.71%),
   linear-gradient(336deg, rgb(17, 18, 22), rgba(11, 27, 47, 0)),
@@ -177,4 +184,30 @@ body {
   .scroll-btn {
     display: none !important;
   }
+}
+.box {
+  --b: 2px;   /* thickness of the border */
+  --c: #62D1E4;   /* color of the border */
+  --w: 30px;  /* width of border */
+  width: fit-content;
+  position:relative;
+  box-sizing:border-box;
+  display:inline-flex;
+  padding: 12px;
+
+}
+.box::before {
+  content :"";
+  position: absolute;
+  inset: 0;
+  background: var(--c,red);
+  --_g: #0000 90deg,#000 0;
+  --_p: var(--w) var(--w) no-repeat;
+  --mask:
+          conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+          conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+          conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+          conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }

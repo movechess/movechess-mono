@@ -8,7 +8,9 @@
 }
 
 body {
-  background: url('/images/bg.svg') repeat #0c0f14;
+  //background: url('/images/bg.svg') repeat #0c0f14;
+  background: linear-gradient(211deg, #1A293C 6.49%, #11161A 89.86%);
+  background-attachment: fixed;
   font-family: "Bandeins Strange Variable";
   color: #ffffff;
 }

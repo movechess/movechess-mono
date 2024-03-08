@@ -21,11 +21,11 @@ const Hero: React.FC = () => {
         <div className="md:w-10/12">
           <p className="text-[#FFF] font-[Assistant] 2xl:text-[24px] lg:text-[16px] md:text-[14px] text-[12px] not-italic font-normal leading-[normal]">
             Revolutionizing online chess with smart-contract tournaments, where
-            cutting-edge blockchain technology and dedicated Chess Arbiters
+            cutting-edge blockchain technology and dedicated chess arbiters
             ensure fairness and integrity.
           </p>
         </div>
-        <div className="md:w-1/2">
+        <div className="md:w-7/12">
           <p className="text-[#FFF] font-[Assistant] 2xl:text-[16px] lg:text-[14px] text-[12px] not-italic font-normal leading-[normal]">
             Subscribe to our newsletter today to stay informed on development
             updates and more from MoveChess.

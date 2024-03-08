@@ -2,7 +2,7 @@ import React from "react"
 
 const Header: React.FC = () => {
   return (
-    <div className="sticky z-[9999] top-0 flex px-[25px] py-[10px] justify-between items-center rounded-tl-none rounded-br-[15px] rounded-tr-none rounded-bl-[15px] bg-[linear-gradient(90deg,_rgba(0,_0,_0,_0.10)_0%,_rgba(129,_129,_129,_0.10)_100%)] [box-shadow:0px_4px_15px_0px_rgba(0,_0,_0,_0.25)] backdrop-filter backdrop-blur-[7.5px]">
+    <div className="sticky z-[9999] top-0 left-0 right-0 flex px-[25px] py-[10px] justify-between items-center rounded-tl-none rounded-br-[15px] rounded-tr-none rounded-bl-[15px] bg-[linear-gradient(90deg,_rgba(0,_0,_0,_0.10)_0%,_rgba(129,_129,_129,_0.10)_100%)] [box-shadow:0px_4px_15px_0px_rgba(0,_0,_0,_0.25)] backdrop-filter backdrop-blur-[7.5px]">
       <div className="flex gap-[25px]">
         <div className="logo-container">
           <a href="/">

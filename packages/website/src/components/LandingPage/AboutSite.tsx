@@ -3,7 +3,7 @@ import AboutItem from "./AboutItem"
 
 const AboutSite: React.FC = () => {
   return (
-    <div className="flex p-[50px] justify-between items-center self-stretch bg-[linear-gradient(0deg,_#171B1F_0%,_rgba(30,_38,_48,_0.00)_100%)]">
+    <div className="flex xl:p-[50px] justify-between items-center self-stretch bg-[linear-gradient(0deg,_#171B1F_0%,_rgba(30,_38,_48,_0.00)_100%)]">
       <AboutItem
         title={"Tournaments"}
         content={

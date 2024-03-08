@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
       </div>
       <div className="absolute right-0">
         <img
-          className="2xl:h-[703px] lg:h-[564px] h-[345px] md:opacity-100 opacity-30"
+          className="2xl:h-[703px] lg:h-[564px] h-[345px] md:opacity-100 opacity-30 rounded-[15px]"
           src="/images/hero.png"
           alt="logo"
         />

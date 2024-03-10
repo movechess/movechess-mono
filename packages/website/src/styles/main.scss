@@ -184,3 +184,23 @@ body {
     display: none !important;
   }
 }
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.swiper-slide-active{
+  opacity: 100% !important;
+}
+

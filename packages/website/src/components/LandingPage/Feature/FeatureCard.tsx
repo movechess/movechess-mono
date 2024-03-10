@@ -5,7 +5,11 @@ interface AboutItemProps {
   content: string
   imageUrl: string
 }
-const FeatureCard: React.FC<AboutItemProps> = ({ title, content, imageUrl }) => {
+const FeatureCard: React.FC<AboutItemProps> = ({
+  title,
+  content,
+  imageUrl,
+}) => {
   return (
     <div
       style={{ backgroundImage: `url(${imageUrl})` }}

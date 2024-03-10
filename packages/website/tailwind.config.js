@@ -5,11 +5,11 @@ const config = {
   theme: {
     extend: {},
     screens: {
-      sm: "500px",
+      sm: "540px",
 
       md: "768px",
 
-      lg: "1024px",
+      lg: "1150px",
 
       xl: "1440px",
 

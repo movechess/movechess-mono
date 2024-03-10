@@ -2,14 +2,14 @@ import React from "react"
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-start gap-[80px] self-stretch rounded-[15px]">
-      <div className="flex px-[80px] py-0 justify-center items-center gap-[10px] self-stretch">
-        <p className="text-[#535353] font-[Assistant] text-[64px] not-italic font-light leading-[normal] uppercase opacity-75">
+    <div className="flex flex-col justify-center items-start 2xl:gap-[80px] gap-[40px] self-stretch rounded-[15px]">
+      <div className="flex md:px-[80px] px-[20px] py-0 justify-center items-center gap-[10px] self-stretch">
+        <p className="text-[#535353] font-[Assistant] 2xl:text-[64px] md:text-[52px] text-[32px] not-italic font-light leading-[normal] uppercase opacity-75">
           About
         </p>
       </div>
-      <div className="flex px-[80px] py-0 justify-center items-center gap-[10px] self-stretch">
-        <p className="text-[#FFF] text-justify font-[Assistant] text-[24px] not-italic font-light leading-[normal] opacity-75">
+      <div className="flex md:px-[80px] px-[20px] py-0 justify-center items-center gap-[10px] self-stretch">
+        <p className="text-[#FFF] text-justify font-[Assistant] 2xl:text-[24px] md:text-[20px] text-[16px] not-italic font-light leading-[normal] opacity-75">
           Welcome to MoveChess, where the grand tradition of chess meets the
           cutting-edge innovation of Web 3 technology. At MoveChess, we're not
           just hosting online tournaments; we're revolutionizing the way you

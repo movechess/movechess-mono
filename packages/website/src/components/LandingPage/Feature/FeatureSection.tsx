@@ -8,7 +8,10 @@ import { FreeMode, Pagination } from "swiper/modules"
 const FeatureSection: React.FC = () => {
   return (
     <>
-      <div className="lg:flex hidden justify-between items-center xl:p-[50px] lg:p-[20px] py-[50px] overflow-hidden self-stretch bg-[linear-gradient(0deg,_#171B1F_0%,_rgba(30,_38,_48,_0.00)_100%)]">
+      <div
+        name="crypto"
+        className="lg:flex hidden justify-between items-center xl:p-[50px] lg:p-[20px] py-[50px] overflow-hidden self-stretch bg-[linear-gradient(0deg,_#171B1F_0%,_rgba(30,_38,_48,_0.00)_100%)]"
+      >
         <FeatureCard
           title={"Tournaments"}
           content={

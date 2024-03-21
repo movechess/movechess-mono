@@ -9,7 +9,7 @@ import FeatureCard from "../Feature/FeatureCard"
 const RoadMap: React.FC = () => {
   return (
       <>
-        <div
+        <div name="road-map"
             className="lg:flex hidden px-[80px] py-0 flex-col justify-center items-start 2xl:gap-[80px] gap-[40px] self-stretch rounded-[15px]">
           <div className="flex px-[20px] py-0 justify-center items-center gap-[10px] self-stretch">
             <p className="text-[#535353] font-[Assistant] 2xl:text-[64px] text-[52px] not-italic font-light leading-[normal] opacity-75">
@@ -25,6 +25,7 @@ const RoadMap: React.FC = () => {
                   "            beginning of a new era in chess, where tradition and innovation\n" +
                   "            converge on the digital frontier."
               }
+              imageUrl={"/images/Vector.svg"}
           />
           <RoadMapItem
               title={"Free Game Analyze Tool"}
@@ -35,6 +36,7 @@ const RoadMap: React.FC = () => {
                   "            their strategies, identify strengths and weaknesses, and advance\n" +
                   "            their skills on the chessboard with precision and insight."
               }
+              imageUrl={"/images/Vector.svg"}
           />
           <RoadMapItem
               title={"Cross Play"}
@@ -47,6 +49,7 @@ const RoadMap: React.FC = () => {
                   "            join the fray, regardless of their familiarity with blockchain\n" +
                   "            technology."
               }
+              imageUrl={"/images/Vector.svg"}
           />
           <RoadMapItem
               title={"Design To Earn Skin Store"}
@@ -58,6 +61,7 @@ const RoadMap: React.FC = () => {
                   "            personalize their game with unique, artistic skins but also opens a\n" +
                   "            new revenue stream for talented creators worldwide."
               }
+              imageUrl={"/images/Vector.svg"}
           />
         </div>
         <div className="lg:!hidden flex px-[20px] py-0 justify-center items-center self-stretch">
@@ -98,6 +102,7 @@ const RoadMap: React.FC = () => {
                     "            beginning of a new era in chess, where tradition and innovation\n" +
                     "            converge on the digital frontier."
                 }
+                imageUrl={"/images/Vector.svg"}
             />
           </SwiperSlide>
           <SwiperSlide className="!pt-0">
@@ -110,8 +115,24 @@ const RoadMap: React.FC = () => {
                     "            their strategies, identify strengths and weaknesses, and advance\n" +
                     "            their skills on the chessboard with precision and insight."
                 }
+                imageUrl={"/images/Vector.svg"}
             />
           </SwiperSlide>
+            <SwiperSlide className="!pt-0">
+                <RoadMapItem
+                    title={"Cross Play"}
+                    content={
+                        "MoveChess is pioneering the future of online chess with our\n" +
+                        "            groundbreaking cross-play feature, bridging the realms of Web 2 and\n" +
+                        "            Web 3 gaming. This innovative capability allows chess enthusiasts\n" +
+                        "            from traditional Web 2 platforms to compete seamlessly against their\n" +
+                        "            counterparts on the Web 3 blockchain, ensuring that everyone can\n" +
+                        "            join the fray, regardless of their familiarity with blockchain\n" +
+                        "            technology."
+                    }
+                    imageUrl={"/images/Vector.svg"}
+                />
+            </SwiperSlide>
           <SwiperSlide className="!pt-0">
             <RoadMapItem
                 title={"Design To Earn Skin Store"}
@@ -123,6 +144,7 @@ const RoadMap: React.FC = () => {
                     "            personalize their game with unique, artistic skins but also opens a\n" +
                     "            new revenue stream for talented creators worldwide."
                 }
+                imageUrl={"/images/Vector.svg"}
             />
           </SwiperSlide>
         </Swiper>

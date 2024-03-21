@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "../components/LandingPage/Header"
+import Header from "../components/LandingPage/Header/Header"
 import Hero from "../components/LandingPage/Hero"
 import FeatureSection from "../components/LandingPage/Feature/FeatureSection"
 import RoadMap from "../components/LandingPage/RoadMap/RoadMap"

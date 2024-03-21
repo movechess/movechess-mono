@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
         <div className="md:hidden flex">
           <a href="/">
             <img
-              className="w-[76px] h-[76px]"
-              src="/images/Logo.svg"
+              className="w-[100px] h-[80px]"
+              src="/images/movechess-logo.svg"
               alt="logo"
             />
           </a>

@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="flex justify-between items-center w-full">
         <div className="flex gap-[25px]">
           <div className="logo-container">
-            <a href="/">
+            <a href="/home">
               <img
                 className="lg:w-[50px] lg:h-[50px] w-[36px] h-[36px]"
                 src="/images/movechess-logo.svg"

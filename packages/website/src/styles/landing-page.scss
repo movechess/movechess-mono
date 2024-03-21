@@ -1,0 +1,34 @@
+@import "tailwind.css";
+@import "main";
+
+@font-face {
+  font-family: "Assistant";
+  src: url("/fonts/Assistant.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(211deg, #1A293C 6.49%, #11161A 89.86%) !important;
+  background-attachment: fixed !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.swiper-slide-active{
+  opacity: 100% !important;
+}

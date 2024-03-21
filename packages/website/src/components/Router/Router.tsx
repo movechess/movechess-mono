@@ -6,7 +6,7 @@ const Router: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/2" element={<LandingPage />} />
+        <Route path="/home" element={<LandingPage />} />
       </Routes>
     </BrowserRouter>
   )

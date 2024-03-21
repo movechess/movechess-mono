@@ -4,6 +4,7 @@ import Hero from "../components/LandingPage/Hero"
 import FeatureSection from "../components/LandingPage/Feature/FeatureSection"
 import RoadMap from "../components/LandingPage/RoadMap/RoadMap"
 import About from "../components/LandingPage/About"
+import "../styles/landing-page.scss"
 
 const LandingPage: React.FC = () => {
   return (

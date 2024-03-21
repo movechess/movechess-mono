@@ -7,17 +7,8 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Assistant";
-  src: url("/fonts/Assistant.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  //background: url('/images/bg.svg') repeat #0c0f14;
-  background: linear-gradient(211deg, #1A293C 6.49%, #11161A 89.86%);
-  background-attachment: fixed;
+  background: url('/images/bg.svg') repeat #0c0f14;
   font-family: "Bandeins Strange Variable";
   color: #ffffff;
 }
@@ -183,24 +174,5 @@ body {
   .scroll-btn {
     display: none !important;
   }
-}
-.swiper-slide {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.swiper-slide {
-  text-align: center;
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.5;
-}
-
-.swiper-slide-active{
-  opacity: 100% !important;
 }
 

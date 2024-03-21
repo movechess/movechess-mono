@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"
 import { FreeMode, Pagination } from "swiper/modules"
-import FeatureCard from "../Feature/FeatureCard"
 
 const RoadMap: React.FC = () => {
   return (
@@ -25,7 +24,7 @@ const RoadMap: React.FC = () => {
                   "            beginning of a new era in chess, where tradition and innovation\n" +
                   "            converge on the digital frontier."
               }
-              imageUrl={"/images/Vector.svg"}
+              imageUrl={"/images/trophy.svg"}
           />
           <RoadMapItem
               title={"Free Game Analyze Tool"}
@@ -36,7 +35,7 @@ const RoadMap: React.FC = () => {
                   "            their strategies, identify strengths and weaknesses, and advance\n" +
                   "            their skills on the chessboard with precision and insight."
               }
-              imageUrl={"/images/Vector.svg"}
+              imageUrl={"/images/analyze.svg"}
           />
           <RoadMapItem
               title={"Cross Play"}
@@ -49,7 +48,7 @@ const RoadMap: React.FC = () => {
                   "            join the fray, regardless of their familiarity with blockchain\n" +
                   "            technology."
               }
-              imageUrl={"/images/Vector.svg"}
+              imageUrl={"/images/cross-play.svg"}
           />
           <RoadMapItem
               title={"Design To Earn Skin Store"}
@@ -61,7 +60,7 @@ const RoadMap: React.FC = () => {
                   "            personalize their game with unique, artistic skins but also opens a\n" +
                   "            new revenue stream for talented creators worldwide."
               }
-              imageUrl={"/images/Vector.svg"}
+              imageUrl={"/images/design-ern.svg"}
           />
         </div>
         <div className="lg:!hidden flex px-[20px] py-0 justify-center items-center self-stretch">
@@ -102,7 +101,7 @@ const RoadMap: React.FC = () => {
                     "            beginning of a new era in chess, where tradition and innovation\n" +
                     "            converge on the digital frontier."
                 }
-                imageUrl={"/images/Vector.svg"}
+                imageUrl={"/images/trophy.svg"}
             />
           </SwiperSlide>
           <SwiperSlide className="!pt-0">
@@ -115,7 +114,7 @@ const RoadMap: React.FC = () => {
                     "            their strategies, identify strengths and weaknesses, and advance\n" +
                     "            their skills on the chessboard with precision and insight."
                 }
-                imageUrl={"/images/Vector.svg"}
+                imageUrl={"/images/analyze.svg"}
             />
           </SwiperSlide>
             <SwiperSlide className="!pt-0">
@@ -130,7 +129,7 @@ const RoadMap: React.FC = () => {
                         "            join the fray, regardless of their familiarity with blockchain\n" +
                         "            technology."
                     }
-                    imageUrl={"/images/Vector.svg"}
+                    imageUrl={"/images/cross-play.svg"}
                 />
             </SwiperSlide>
           <SwiperSlide className="!pt-0">
@@ -144,7 +143,7 @@ const RoadMap: React.FC = () => {
                     "            personalize their game with unique, artistic skins but also opens a\n" +
                     "            new revenue stream for talented creators worldwide."
                 }
-                imageUrl={"/images/Vector.svg"}
+                imageUrl={"/images/design-ern.svg"}
             />
           </SwiperSlide>
         </Swiper>

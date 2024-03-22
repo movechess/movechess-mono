@@ -5,13 +5,11 @@ const Hero: React.FC = () => {
     <div className="relative flex 2xl:h-[703px] lg:h-[564px] h-[345px] lg:pl-[100px] md:pl-[50px] px-[10px] py-[10px] md:justify-between justify-center items-center flex-shrink-0 self-stretch rounded-[15px] bg-[#000] [box-shadow:0px_4px_15px_0px_rgba(0,_0,_0,_0.25)]">
       <div className="absolute z-10 flex flex-col md:px-0 px-3 md:gap-[25px] gap-[16px] md:w-1/2 w-full md:text-start text-center md:items-start items-center">
         <div className="md:hidden flex">
-          <a href="/">
-            <img
-              className="w-[100px] h-[80px]"
-              src="/images/movechess-logo.svg"
-              alt="logo"
-            />
-          </a>
+          <img
+            className="w-[100px] h-[80px]"
+            src="/images/movechess-logo.svg"
+            alt="logo"
+          />
         </div>
         <div>
           <p className="text-[#FFF] font-[AmstelvarAlpha] 2xl:text-[74px] lg:text-[48px] md:text-[32px] text-[24px] not-italic font-normal leading-[normal] self-stretch uppercase">

@@ -1,8 +1,8 @@
 import React from "react"
-import Header from "../components/LandingPage/Header/Header"
+import Header from "../components/LandingPage/Header"
 import Hero from "../components/LandingPage/Hero"
-import FeatureSection from "../components/LandingPage/Feature/FeatureSection"
-import RoadMap from "../components/LandingPage/RoadMap/RoadMap"
+import FeatureSection from "../components/LandingPage/FeatureSection"
+import RoadMap from "../components/LandingPage/RoadMap"
 import About from "../components/LandingPage/About"
 import "../styles/landing-page.scss"
 

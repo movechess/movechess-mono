@@ -50,7 +50,7 @@ const FeatureSection: React.FC = () => {
           imageUrl={"/images/nft-card.png"}
         ></FeatureCard>
         <FeatureCard
-          title={"Education"}
+          title={"DISCOVER WEB3"}
           content={
             "Unlock the potential of Web3 and earn NFTs and blockchain rewards simply by playing the chess you know and love."
           }
@@ -96,7 +96,7 @@ const FeatureSection: React.FC = () => {
         </SwiperSlide>
         <SwiperSlide>
           <FeatureCard
-            title={"Education"}
+            title={"DISCOVER WEB3"}
             content={
               "Unlock the potential of Web3 and earn NFTs and blockchain rewards simply by playing the chess you know and love."
             }

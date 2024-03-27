@@ -2,10 +2,7 @@ import React from "react"
 
 const About: React.FC = () => {
   return (
-    <div
-      name="about"
-      className="flex flex-col justify-center items-start 2xl:gap-[80px] gap-[40px] self-stretch rounded-[15px]"
-    >
+    <div className="flex flex-col justify-center items-start 2xl:gap-[80px] gap-[40px] self-stretch rounded-[15px]">
       <div className="flex md:px-[80px] px-[20px] py-0 justify-center items-center gap-[10px] self-stretch">
         <p className="text-[#535353] font-[Assistant] 2xl:text-[64px] md:text-[52px] text-[32px] not-italic font-light leading-[normal] uppercase opacity-75">
           About
